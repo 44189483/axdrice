@@ -1,0 +1,710 @@
+/*------合作伙伴页面样式*/
+img{
+	vertical-align: top;
+}
+
+
+.clearFloat_t:after{
+	clear: both;
+	content: '.';
+	width: 0px;
+	height: 0px;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.bannerBox{
+	width: 100%;
+	height: 500px;
+}
+
+.mainBox1{
+	width: 1100px;
+	margin: 0 auto;
+	height: auto;
+}
+.cntBox1{
+	width: 1080px;
+	height: auto;
+	padding: 0 10px;
+	padding-top: 36px;
+	padding-bottom: 58px;
+}
+.cntBox1 h1{
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 12px;
+}
+
+.cntBox1 p{
+	font-size: 14px;
+	color: #666;
+	line-height: 24px;
+	margin-bottom: 23px;
+}
+
+.bgTxtBox{
+	padding-left: 116px;
+	background: url(../images/700Logo_t.png) no-repeat;
+}
+.bgTxtBox p{
+	padding-top: 16px;
+}
+
+.mainBox2{
+	width: 100%;
+	height: 513px;
+	padding-top: 55px;
+	padding-bottom: 66px;
+	margin-bottom: 46px;
+}
+.ImgCntBox{
+	width: 1099px;
+	margin: 0 auto;
+	height: auto;
+}
+
+.mainBox3{
+	width: 1100px;
+	margin: 0 auto;
+	height: auto;
+}
+
+.partnerTittleBox{
+	width: 386px;
+	margin: 0 auto;
+	height: 70px;
+	line-height: 70px;
+	font-size: 30px;
+	color: #333;
+	background: url(../images/700Logo_t.png) no-repeat 278px;
+	margin-bottom: 24px;
+}
+
+.tabTittleBox{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+}
+
+.innerTabBox{
+	display: inline-block;
+	overflow: hidden;
+	margin-bottom: 18px;
+}
+.innerTabBox a{
+	display: block;
+	float: left;
+	padding: 0 30px;
+	font-size: 18px;
+	color: #333;
+	position: relative;
+	cursor: pointer;
+}
+
+.innerTabBox a.colorG{
+	color: #06b752 ;
+}
+
+.innerTabBox a img{
+	position: absolute;
+	right: 0px;
+	top: 4px;
+}
+
+.mainBox4{
+	width: 100%;
+	height: auto;
+	padding-top: 19px;
+	background: #f8f7f7;
+}
+
+.tabCntBox{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.tabCntBox .partnerCntBox{
+	width: 297px;
+	height: 278px;
+	float: left;
+	margin-right: 46px;
+	background: #fff;
+	margin-bottom: 35px;
+	text-align: center;
+	padding: 0 19px;
+	padding-top: 57px;
+	position: relative;
+}
+
+.margR0{
+	margin-right: 0px !important;
+}
+.partnerImg{
+	display: inline-block;
+	overflow: hidden;
+}
+
+.partnerTxt{
+	position: absolute;
+	font-size: 18px;
+	color: #666;
+	width: 297px;
+	text-align: center;
+	top: 180px;
+}
+
+.tabCntBox .partnerCntBox p{
+	width: 297px;
+	font-size: 12px;
+	color: #666;
+	line-height: 20px;
+	position: absolute;
+	top: 216px;
+	text-align: left;
+}
+
+.moreBtn{
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	font-size:14px;
+	color: #999;
+	text-align: center;
+	margin-top: 6px;
+	background: url(../images/moreBg.png) no-repeat;
+	cursor: pointer;
+	display: block;
+}
+
+.btnBox{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+
+.mainBox5{
+	width: 100%;
+	text-align: center;
+	height: auto;
+	padding-top: 66px;
+	padding-bottom: 100px;
+	overflow: hidden;
+}
+
+.mainBox5 h1{
+	font-size: 30px;
+	color: #222;
+	margin-bottom: 14px;
+}
+
+.emailBox{
+	display: inline-block;
+	width: 275px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	color: #fff;
+	background-color: #00a145;
+}
+
+.innerTabBox a:hover{
+	color: #06b752;
+}
+
+
+/*------青葱计划*/
+.explainBox{
+	width: 100%;
+	height: 383px;
+	overflow: hidden;
+}
+
+.explainCntBox{
+	width: 1004px;
+	padding-top: 120px;
+	padding-left: 76px;
+	overflow: hidden;
+	margin: 0 auto;
+	background: url(../images/webMascot.png) no-repeat 656px 56px;
+	padding-bottom: 132px;
+}
+.explainCntBox h1{
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 24px;
+}
+
+.explainCntBox p{
+	width: 540px;
+	line-height: 24px;
+	color: #666;
+	font-size: 14px;
+}
+
+.explainBox2{
+	width: 100%;
+	height: 384px;
+	background: url(../images/explainBigBg.png) no-repeat;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.stepImgBox{
+	display: inline-block;
+}
+
+.explainBox3{
+	width: 100%;
+	text-align: center;
+	padding-top: 65px;
+}
+
+.explainBox3 h1{
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 14px;
+}
+
+.txtCnt{
+	font-size: 16px;
+	color: #666;
+	height: 24px;
+	line-height: 24px;
+	margin-bottom: 24px;
+}
+
+.servCntBox{
+	width: 1070px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.servCnt{
+	width: 210px;
+	padding: 0 32px;
+	/*height: ;*/
+	float: left;
+	overflow: hidden;
+}
+
+.padL0{
+	padding-left: 0px !important;
+}
+.padR0{
+	padding-right: 0px !important;
+}
+
+.servImg{
+	display: inline-block;
+	margin-bottom: 24px;
+}
+
+.servName{
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 16px;
+}
+
+.servCnt p{
+	height: 110px;
+	border-right: 1px solid #d3d3d3;
+	color: #424242;
+	width: 200px;
+	padding-right: 37px;
+	text-align: left;
+	line-height: 20px;
+}
+
+.borderR0{
+	border-right: 0px none !important;
+}
+
+.freeServ{
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	color: #666;
+	margin-bottom: 26px;
+}
+
+.freeList{
+	display: inline-block;
+	list-style-image: url(../images/listIng_t.jpg);
+	margin-bottom: 56px;
+}
+
+.freeList li{
+	margin-bottom: 12px;
+	font-size: 12px;
+	color: #666;
+	text-align: left;
+}
+
+.explainBox4{
+	width: 100%;
+	height: 748px;
+	overflow: hidden;
+	padding-top: 82px;
+	padding-bottom: 48px;
+	text-align: center;
+}
+.botTittle{
+	font-size: 24px;
+	color: #fff;
+	width: 100%;
+	margin-bottom: 34px;
+}
+
+.botTable{
+	color: #fff;
+	font-size: 14px;
+}
+
+.botTable td{
+	padding-bottom: 12px;
+	line-height: 24px;
+}
+
+.padL12{
+	padding-left: 12px;
+}
+
+.textAR{
+	text-align: right;
+}
+
+.botTableBox{
+	display: inline-block;
+	margin-bottom: 24px;
+}
+
+.verAT{
+	vertical-align: top;
+}
+
+.lineH24{
+	line-height: 24px;
+}
+
+#banner_tabs01{
+	width: 1244px;
+}
+
+.joinQc{
+	display: block;
+	width: 300px;
+	height: 60px;
+	color: #fff!important;
+	font-size: 24px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 60px;
+	background: url(../images/joinqcBg.png) no-repeat;
+	margin-top: 40px;
+	margin-bottom: 18px;
+	cursor: pointer;
+}
+
+.joinQc:hover{
+	color: #0ed968!important;
+}
+
+.qcQQ{
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+
+
+/*----负载均衡页面样式161215*/
+
+.box1_bla{
+	width: 1200px;
+	margin: 0 auto;
+	height: auto;
+	padding-top: 62px;
+	margin-bottom: 84px;
+}
+
+.box1LcntBox{
+	float: left;
+	width: 442px;
+	padding-left: 44px;
+	padding-right: 113px;
+	height: auto;
+	padding-bottom: 24px;
+	border-right: 1px solid #ddd;
+}
+
+.row1Box{
+	padding-left: 92px;
+	background: url(../images/Lbg1.png) no-repeat;
+	overflow: ;
+}
+
+.row1Box h1{
+	font-size: 20px;
+	color: #333;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+
+.row1Box h1 span{
+	padding-bottom: 12px;
+	border-bottom: 1px solid #00a145;
+	display: inline-block;
+}
+
+.row1Box p{
+	padding-top: 8px;
+	font-size: 14px;
+	color: #666;
+	line-height: 24px;
+}
+
+.row2Box{
+	position: relative;
+	border: 1px solid #ddd;
+	/*border-bottom: 0px none;*/
+	margin-top: 54px;
+}
+
+.backUl{
+	padding-top: 14px;
+	padding-left: 29px;
+	font-size: 14px;
+	color: #666;
+}
+
+.backUl li{
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+
+.borderB0{
+	border-bottom: 0px none !important;
+}
+
+.posiUl{
+	width: 148px;
+	text-align: center;
+	border: 1px solid #ddd;
+	padding-top: 15px;
+	position: absolute;
+	left: 294px;
+	top: -41px;
+	background: #fff;
+	padding-bottom: 20px;
+}
+.posiUl li{
+	width: 100%;
+	text-align: center;
+	color: #666;
+	font-size: 14px;
+	/*margin-bottom: 18px;*/
+	height: 41px;
+	line-height: 41px;
+}
+
+.font16{
+	font-size: 16px !important;
+}
+
+.liImgBox{
+	display: inline-block;
+	margin-top: 9px;
+}
+
+.box1RcntBox{
+	float: right;
+	width: 442px;
+	padding-left: 113px;
+	padding-right: 45px;
+}
+
+.row1Box-2{
+	background: url(../images/Rbg1_03.png) no-repeat;
+}
+
+.imgRbox{
+	width: 357px;
+	margin: 0 auto;
+	margin-top: 32px;
+}
+
+.box2_bla{
+	width: 100%;
+	height: 661px;
+	background: #f8f8f8 url(../images/blaPart2Bg_06.png) no-repeat;
+	overflow: hidden;
+}
+
+.part2Tittle{
+	width: 100%;
+	font-size: 24px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 26px;
+	color: #fff;
+	margin-top: 36px;
+}
+
+.part2Line{
+	width: 50px;
+	margin: 0 auto;
+	height: 1px;
+	background: #fff;
+	margin-bottom: 64px;
+}
+
+.intrBox_bla{
+	width: 533px;
+	margin: 0 auto;
+	padding-left: 142px;
+	background: url(../images/intrBg1_07.png) no-repeat;
+	height: 94px;
+	margin-bottom: 50px;
+}
+
+.intrBox_bla h1{
+	font-size: 16px;
+	color: #fff;
+	padding-top: 8px;
+	margin-bottom: 12px;
+}
+
+.intrBox_bla p{
+	font-size: 14px;
+	color: #fff;
+	line-height: 22px;
+}
+
+.moduleBox{
+	width: 1198px;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.module_bla{
+	width: 298px;
+	height: 240px;
+	float: left;
+	margin-right: 44px;
+	background: #fff;
+	padding: 0 36px;
+	padding-top: 40px;
+}
+
+.lineBox{
+	width: 100%;
+	margin-bottom: 22px;
+}
+
+.mnLineG{
+	float: left;
+	width: 40px;
+	height: 4px;
+	background: #00a145;
+}
+
+.module_bla h1{
+	width: 100%;
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 24px;
+}
+
+.module_bla p{
+	font-size: 14px;
+	color: #666;
+	line-height: 24px;
+}
+
+.m1_bla{
+	background: #fff url(../images/mBg2.png) no-repeat 281px 40px;
+}
+
+.m2_bla{
+	background: #fff url(../images/mBg3.png) no-repeat 281px 40px;
+}
+
+.m3_bla{
+	background: #fff url(../images/mBg1.png) no-repeat 281px 40px;
+}
+
+.box3_bla{
+	width: 100%;
+	padding-top: 57px;
+}
+
+.box3_bla .part5Tittle{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 24px;
+}
+
+.p5Line{
+	width: 50px;
+	height: 1px;
+	background: #00a145;
+	margin: 0 auto;
+	margin-bottom: 66px;
+}
+
+.p5CntBox{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+.p5Row1{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 46px;
+}
+
+.sameStyle_bla{
+	width: 449px;
+	padding-left: 85px;
+}
+
+.r1Lcnt{
+	float: left;
+	background: url(../images/p5Bg2.jpg) no-repeat;
+}
+.botmSameH1{
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 18px;
+}
+
+.botmSameP{
+	font-size: 14px;
+	color: #666;
+	line-height: 24px;
+}
+
+.r1Rcnt{
+	float: right;
+	background: url(../images/p5Bg1.jpg) no-repeat;
+}
+
+.r1Lcnt3Bg{
+	background: url(../images/p5Bg3.jpg) no-repeat;
+}
+ .r1Lcnt4Bg{
+ 	background: url(../images/p5Bg4.png) no-repeat;
+ }

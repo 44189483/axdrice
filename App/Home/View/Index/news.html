@@ -1,0 +1,31 @@
+<include file="Public/index/head.html" />
+
+	<div class="pr-banner" style="background: url(__PUBLIC__/index/images/news-zibanner.jpg) no-repeat center;"></div>
+		
+	<div class="pr-cnt">
+		<div class="news-list">
+			<div class="news-listcnt">
+				<h2>新闻列表</h2>
+				<ul class="news-listbox">
+					<volist name="news" id="i">
+					<a href="__URL__/newsdetail/id/{{$i.articleId}}">
+						<li>
+							<div class="date">
+								<span>{{$i.day}}</span>
+								<span class="date01">{{$i.month}}</span>
+							</div>
+							<div class="news-listboxtext">
+								<h3>{{$i.articleTitle}}</h3>
+								{{$i.articleContent|msubstr=###,0,40,'utf-8'}}
+							</div>
+
+						</li>
+					</a>
+					</volist>
+				</ul>
+				<div class="news-prev">{{$page}}</div>
+			</div>
+		</div>
+	</div>
+
+<include file="Public/index/foot.html" />

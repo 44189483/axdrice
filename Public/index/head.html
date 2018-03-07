@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>{{$site.title}}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="keywords" content="{{$site.keywords}}"/>
+		<meta name="description"content="{{$site.description}}"/>
+		<link rel="icon" href="ico.ico" type="image/x-icon" />
+		<link rel="shortcut icon" type="image/ico" href="ico.ico"/>
+		<link rel="bookmark" href="ico.ico"/>
+		<link rel="stylesheet" href="__PUBLIC__/index/css/style.css" />
+		<script src="__PUBLIC__/index/js/scale.js"></script>
+		<link rel="stylesheet" href="__PUBLIC__/index/js/swiper/idangerous.swiper.css" />
+	</head>
+
+	<body>
+		<!--内页头部导航开始-->
+		<div class="pr-head">
+			<div class="pr-headlogo">
+				<a href="index.html"><img src="__PUBLIC__/index/images/prhd-logo.jpg" alt="" /></a>
+			</div>
+			<ul class="prhd-nav">
+				<li class="nav01 <eq name="ACTION_NAME" value="index">active</eq>">
+					<a href="{{:U('index')}}"><span>首页</span><span class="note">Home</span></a>
+				</li>
+				<li class="nav02 <eq name="ACTION_NAME" value="rice">active</eq>">
+					<a href="{{:U('rice')}}"><span>酵素大米</span><span class="note">Rice</span></a>
+				</li>
+				<li class="nav03 <eq name="ACTION_NAME" value="fertilizer">active</eq>">
+					<a href="__URL__/fertilizer"><span>酵素与生物肥</span><span class="note">Enzyme&Bio-fertilizer</span></a>
+				</li>
+				<li class="nav02 <eq name="ACTION_NAME" value="about">active</eq>">
+					<a href="__URL__/about"><span>关于我们</span><span class="note">About us</span></a>
+				</li>
+				<li class="nav04 <eq name="ACTION_NAME" value="news|newsdetail">active</eq>">
+					<a href="__URL__/news"><span>新闻资讯</span><span class="note">News</span></a>
+				</li>
+			</ul>
+		</div>

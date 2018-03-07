@@ -1,0 +1,45 @@
+
+		<div class="footbg">
+			<div class="foot footbg">
+				<div class="ft-weixin"><img src="{{$site.wxcode}}" alt="" /></div>
+				<p>{{$site.commpany}}</p>
+				<p>联系电话：{{$site.tel}}</p>
+				<ul class="foot-nav">
+					<li <eq name="ACTION_NAME" value="index">class="active"</eq>>
+						<a href="index.php">首页</a>
+					</li>
+					<li <eq name="ACTION_NAME" value="rice">class="active"</eq>>
+						<a href="__URL__/rice">酵素大米</a>
+					</li>
+					<li <eq name="ACTION_NAME" value="fertilizer">class="active"</eq>>
+						<a href="__URL__/fertilizer">酵素与生物肥</a>
+					</li>
+					<li <eq name="ACTION_NAME" value="about">class="active"</eq>>
+						<a href="__URL__/about">关于我们 </a>
+					</li>
+					<li <eq name="ACTION_NAME" value="news|newsdetail">class="active"</eq>">
+						<a href="__URL__/news">新闻资讯</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div style='background: url(__PUBLIC__/index/images/ftbanner_01.jpg) no-repeat top center;' class="foot-banner"></div>
+
+		<!--foot-nav开始-->
+
+		<!--网站脚本加载模块开始-->
+		<script src="__PUBLIC__/index/js/jquery-1.7.1.min.js"></script>
+		<script src="__PUBLIC__/index/js/swiper/idangerous.swiper.min.js"></script>
+		<script src="__PUBLIC__/index/js/jquery.main.js"></script>
+		<!--网站脚本加载模块结束-->
+		
+		<script type="text/javascript">
+			$(function(){
+				$("#cnzz_stat_icon_1260782316").hide();
+			});
+		</script>
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260782316'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1260782316%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+	</body>
+
+</html>

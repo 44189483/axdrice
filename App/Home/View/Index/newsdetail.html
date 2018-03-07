@@ -1,0 +1,20 @@
+<include file="Public/index/head.html" />
+
+	<div class="pr-banner" style="background: url(__PUBLIC__/index/images/news-zibanner.jpg) no-repeat center;"></div>
+	
+	<div class="pr-cnt">
+		<div class="news-list">
+			<div class="news-listcnt">
+			     <div class="newscnt">
+			     	  <h3>{{$detail.articleTitle}}<a href="__URL__/news" class="back">返回列表</a></h3>
+			     	  <p class="date">{{$detail.addDate}}</p>
+			     	  {{$detail.articleContent}}
+			     </div>
+			     <gt name="next.articleId" value="0">
+			     <div class="nextcnt"><a href="__URL__/newsdetail/id/{{$next.articleId}}" class="nextbox">下一篇：{{$next.articleTitle}}</a></div>
+			     </gt>
+			</div>
+		</div>
+	</div>
+
+<include file="Public/index/foot.html" />

@@ -1,0 +1,149 @@
+[ 2017-07-19T12:40:01+08:00 ] ::1 /axd-tp/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000797s ]
+INFO: [ app_init ] --END-- [ RunTime:0.042303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000582s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001950s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004100s ]
+
+[ 2017-07-19T12:40:01+08:00 ] ::1 /axd-tp/index.php/Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000807s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004986s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000552s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001951s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002590s ]
+
+[ 2017-07-19T12:40:01+08:00 ] ::1 /axd-tp/index.php/Admin/Index/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000484s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005285s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000774s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002569s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004334s ]
+
+[ 2017-07-19T12:40:01+08:00 ] ::1 /axd-tp/index.php/Admin/Index/head
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000497s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000795s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002644s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002799s ]
+
+[ 2017-07-19T12:40:05+08:00 ] ::1 /axd-tp/index.php/Admin/Article/index/aid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000472s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004772s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 5 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000706s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002914s ]
+
+[ 2017-07-19T12:40:10+08:00 ] ::1 /axd-tp/index.php/Admin/Product/index/aid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000415s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004977s ]
+SQL: SHOW COLUMNS FROM `axdrice_product` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `axdrice_product` WHERE ( aid=2 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `axdrice_product` WHERE ( aid=2 ) ORDER BY ord DESC,productId DESC LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000552s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001901s ]
+NOTIC: [8] Undefined variable: catelog E:\xampp\htdocs\axd-tp\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002575s ]
+
+[ 2017-07-19T12:40:12+08:00 ] ::1 /axd-tp/index.php/Admin/Product/view/aid/2/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000309s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003570s ]
+SQL: SHOW COLUMNS FROM `axdrice_product` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `axdrice_product` WHERE ( productId=2 ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000635s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002455s ]
+NOTIC: [8] Undefined variable: catelog E:\xampp\htdocs\axd-tp\App\Runtime\Cache\Admin\530788cd18b819cc13966fba0f8274c0.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002949s ]
+

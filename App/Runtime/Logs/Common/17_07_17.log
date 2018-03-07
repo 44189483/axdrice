@@ -1,0 +1,66 @@
+[ 2017-07-17T17:06:26+08:00 ] ::1 /axd-tp/ico.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000340s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002943s ]
+ERR: 无法加载模块:Ico
+
+[ 2017-07-17T17:15:07+08:00 ] ::1 /axd-tp/Public/editor//axd-tp/Public/code/prettify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000398s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003197s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-17T17:15:07+08:00 ] ::1 /axd-tp/Public/editor//axd-tp/Public/code/prettify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000469s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003697s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-17T17:15:07+08:00 ] ::1 /axd-tp/Public/editor//axd-tp/Public/code/prettify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002072s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-17T17:15:07+08:00 ] ::1 /axd-tp/Public/editor/code/prettify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000371s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003524s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-17T17:15:12+08:00 ] ::1 /axd-tp/Public/editor//axd-tp/Public/code/prettify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000286s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002557s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-17T17:15:12+08:00 ] ::1 /axd-tp/Public/editor//axd-tp/Public/code/prettify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000341s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004211s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-17T17:15:12+08:00 ] ::1 /axd-tp/Public/editor/code/prettify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000915s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011840s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-17T17:15:12+08:00 ] ::1 /axd-tp/Public/editor//axd-tp/Public/code/prettify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000320s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002821s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-17T17:15:12+08:00 ] ::1 /axd-tp/Public/editor//axd-tp/Public/code/prettify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000332s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002889s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-17T17:15:13+08:00 ] ::1 /axd-tp/Public/editor/code/prettify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.005042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015033s ]
+ERR: 无法加载模块:Public
+

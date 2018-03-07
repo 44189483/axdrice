@@ -1,0 +1,484 @@
+[ 2017-04-14T09:52:42+08:00 ] ::1 /axd/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000297s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002400s ]
+SQL: SHOW COLUMNS FROM `axdrice_slide` [ RunTime:0.0204s ]
+SQL: SELECT `slideImg`,`slideLink` FROM `axdrice_slide` ORDER BY ord DESC,slideId DESC  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0032s ]
+SQL: SELECT `articleImg`,`articleContent` FROM `axdrice_article` WHERE ( articletype=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `articleId`,`articleTitle`,`addDate` FROM `axdrice_article` WHERE ( articletype=1 AND indexShow=1 ) ORDER BY ord DESC,articleId DESC LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000614s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001599s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 9 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 128 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.259001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.259942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001965s ]
+
+[ 2017-04-14T09:52:45+08:00 ] ::1 /axd/index.php/Home/Index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002026s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 10 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001288s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 6 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 9 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 66 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 67 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002431s ]
+
+[ 2017-04-14T09:52:45+08:00 ] ::1 /axd/index.php/Home/Index/static/index/images/abtu01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000405s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-04-14T09:52:46+08:00 ] ::1 /axd/index.php/Home/Index/ico.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000433s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002773s ]
+
+[ 2017-04-14T09:52:48+08:00 ] ::1 /axd/index.php/Home/Index/about/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002483s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 12 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000395s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001391s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 6 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 9 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 66 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 67 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002265s ]
+
+[ 2017-04-14T09:52:49+08:00 ] ::1 /axd/index.php/Home/Index/about/id/ico.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001398s ]
+
+[ 2017-04-14T09:55:06+08:00 ] ::1 /axd/index.php/Home/Index/about/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 12 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001381s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 6 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 9 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 66 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 67 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002313s ]
+
+[ 2017-04-14T10:05:38+08:00 ] ::1 /axd/index.php/Home/Index/about/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 12 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000443s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001397s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 6 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 9 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 66 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 67 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002162s ]
+
+[ 2017-04-14T10:12:11+08:00 ] ::1 /axd/index.php/Home/Index/about/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000253s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002087s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 12 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000421s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001338s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 6 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 9 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 66 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 67 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001695s ]
+
+[ 2017-04-14T10:13:03+08:00 ] ::1 /axd/index.php/Home/Index/about/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 12 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000393s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001407s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 7 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 11 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 67 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 68 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2017-04-14T10:13:04+08:00 ] ::1 /axd/index.php/Home/Index/about/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000275s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002265s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 12 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000616s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001966s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 7 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 11 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 67 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 68 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002950s ]
+
+[ 2017-04-14T10:13:56+08:00 ] ::1 /axd/index.php/Home/Index/about/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 12 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000392s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001299s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 7 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 11 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 67 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 68 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001775s ]
+
+[ 2017-04-14T10:14:37+08:00 ] ::1 /axd/index.php/Home/Index/about/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 12 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001255s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 7 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 11 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 67 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 68 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001785s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001669s ]
+
+[ 2017-04-14T10:15:15+08:00 ] ::1 /axd/index.php/Home/Index/about/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001896s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 12 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000588s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001773s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 7 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 11 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 67 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 68 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006105s ]
+
+[ 2017-04-14T10:16:05+08:00 ] ::1 /axd/index.php/Home/Index/about/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000319s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 12 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000426s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001365s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 7 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 11 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 67 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 68 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002122s ]
+
+[ 2017-04-14T10:42:06+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+SQL: SHOW COLUMNS FROM `axdrice_slide` [ RunTime:0.0423s ]
+SQL: SELECT `slideImg`,`slideLink` FROM `axdrice_slide` ORDER BY ord DESC,slideId DESC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0038s ]
+SQL: SELECT `articleImg`,`articleContent` FROM `axdrice_article` WHERE ( articletype=0 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `articleId`,`articleTitle`,`addDate` FROM `axdrice_article` WHERE ( articletype=1 AND indexShow=1 ) ORDER BY ord DESC,articleId DESC LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001677s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 9 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 128 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002592s ]
+
+[ 2017-04-14T10:42:20+08:00 ] ::1 /index.php/Home/Index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 10 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000409s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001233s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 6 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 9 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 66 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 67 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001665s ]
+
+[ 2017-04-14T10:42:20+08:00 ] ::1 /index.php/Home/Index/static/index/images/abtu01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+
+[ 2017-04-14T10:42:21+08:00 ] ::1 /index.php/Home/Index/ico.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+
+[ 2017-04-14T10:42:25+08:00 ] ::1 /index.php/Home/Index/about/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000254s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 12 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001225s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 6 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 9 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 66 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 67 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2017-04-14T10:42:25+08:00 ] ::1 /index.php/Home/Index/about/id/ico.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000256s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002098s ]
+
+[ 2017-04-14T10:43:23+08:00 ] ::1 /index.php/Home/Index/about/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 12 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000478s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001565s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 6 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 9 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 66 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 67 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+

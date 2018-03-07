@@ -1,0 +1,238 @@
+[ 2017-07-17T17:06:30+08:00 ] ::1 /axd-tp/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000230s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002553s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000838s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002940s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-07-17T17:06:30+08:00 ] ::1 /axd-tp/index.php/Admin/Index/head
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000605s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001892s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002607s ]
+
+[ 2017-07-17T17:06:31+08:00 ] ::1 /axd-tp/index.php/Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000398s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005134s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000918s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004565s ]
+
+[ 2017-07-17T17:06:31+08:00 ] ::1 /axd-tp/index.php/Admin/Index/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000483s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000631s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002885s ]
+
+[ 2017-07-17T17:15:04+08:00 ] ::1 /axd-tp/index.php/Admin/Option/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000235s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002807s ]
+SQL: SHOW COLUMNS FROM `axdrice_option` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `axdrice_option` WHERE ( optionType="site" )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000702s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002632s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002932s ]
+
+[ 2017-07-17T17:15:06+08:00 ] ::1 /axd-tp/index.php/Admin/Slide/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000236s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002847s ]
+SQL: SHOW COLUMNS FROM `axdrice_slide` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `axdrice_slide` ORDER BY ord DESC,slideId DESC  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000569s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002011s ]
+NOTIC: [8] Undefined variable: row E:\xampp\htdocs\axd-tp\App\Runtime\Cache\Admin\d2065425f578ca6b2ecb69480924e82e.php 第 31 行.
+NOTIC: [8] Undefined variable: row E:\xampp\htdocs\axd-tp\App\Runtime\Cache\Admin\d2065425f578ca6b2ecb69480924e82e.php 第 47 行.
+NOTIC: [8] Undefined variable: row E:\xampp\htdocs\axd-tp\App\Runtime\Cache\Admin\d2065425f578ca6b2ecb69480924e82e.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003162s ]
+
+[ 2017-07-17T17:15:07+08:00 ] ::1 /axd-tp/index.php/Admin/Article/index/aid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000251s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002778s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000624s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001980s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002826s ]
+
+[ 2017-07-17T17:15:12+08:00 ] ::1 /axd-tp/index.php/Admin/Article/index/aid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000269s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002659s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 6 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000563s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001972s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002596s ]
+
+[ 2017-07-17T17:15:12+08:00 ] ::1 /axd-tp/index.php/Admin/Article/index/aid/static/index/images/en-pr01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000649s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004650s ]
+
+[ 2017-07-17T17:15:12+08:00 ] ::1 /axd-tp/index.php/Admin/Article/index/aid/static/index/images/en_tu02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005835s ]
+
+[ 2017-07-17T17:15:12+08:00 ] ::1 /axd-tp/index.php/Admin/Article/index/aid/static/index/images/en_tu03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000699s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005747s ]
+
+[ 2017-07-17T17:15:12+08:00 ] ::1 /axd-tp/index.php/Admin/Article/index/aid/static/index/images/en_tu01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000934s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007479s ]
+
+[ 2017-07-17T17:15:12+08:00 ] ::1 /axd-tp/index.php/Admin/Article/index/aid/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000262s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002659s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `axdrice_article` WHERE `articleId` = 7 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000586s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001932s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002779s ]
+
+[ 2017-07-17T17:15:13+08:00 ] ::1 /axd-tp/index.php/Admin/Article/index/aid/static/index/images/engai_03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007462s ]
+
+[ 2017-07-17T17:15:13+08:00 ] ::1 /axd-tp/index.php/Admin/Article/index/aid/static/index/images/engai_02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000810s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006003s ]
+
+[ 2017-07-17T17:15:13+08:00 ] ::1 /axd-tp/index.php/Admin/Article/index/aid/static/index/images/en-prgai01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001252s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009807s ]
+
+[ 2017-07-17T17:15:13+08:00 ] ::1 /axd-tp/index.php/Admin/Article/index/aid/static/index/images/engai_01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000844s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005967s ]
+
+[ 2017-07-17T17:15:13+08:00 ] ::1 /axd-tp/index.php/Admin/Article/index/aid/static/index/images/engai_04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000781s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005846s ]
+

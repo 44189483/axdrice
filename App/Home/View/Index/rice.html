@@ -1,0 +1,70 @@
+<include file="Public/index/head.html" />
+
+		<div class="pr-banner" style="background: url(__PUBLIC__/index/images/pr-banner01.jpg) no-repeat center;"></div>
+
+		<div class="pr-cnt">
+			<ul class="prnavbox">
+				<li class="nmb01 <eq name="id" value="2">active</eq>">
+					<a href="__URL__/rice/id/2" class="prnav01 sprite"></a>
+				</li>
+				<li class="nmb02 <eq name="id" value="3">active</eq>">
+					<a href="__URL__/rice/id/3" class="prnav02 sprite"></a>
+				</li>
+				<li class="nmb03 <eq name="id" value="4">active</eq>">
+					<a href="__URL__/rice/id/4" class="prnav03 sprite"></a>
+				</li>
+				<li class="nmb04 <eq name="id" value="5">active</eq>">
+					<a href="__URL__/rice/id/5" class="prnav04 sprite"></a>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="pr-box1" style="background: url({{$riceImg}}) no-repeat top center;">
+			<div class="pr-box1-cnt">
+				<h2>{{$riceTitle}}</h2>
+				<div class="pr-box1-cnttext">
+					{{$jx.articleContent}}
+				</div>
+			</div>
+		</div>
+		<div class="pr-cnt">
+			<div class="pr-box2">
+				<div class="pr-box2title">
+					<img src="__PUBLIC__/index/images/prguige.png" alt="" class="pr-guige" />
+					<h3>为国人健康提供优质食材</h3>
+				</div>
+				<div class="hourse-banner">
+					<div class="swiper-container swiper-container3">
+						<div class="swiper-wrapper">
+							<volist name="pro" id="i">
+							<div class="swiper-slide swiper-no-swiping">
+								<a href="<neq name="i:productContent" value="">product.html?id={{$i.productId}}<else/>#</neq>" class="active">
+									<div class="swiper3-img">
+										<img src="__ROOT__/{{$i.productImg}}" width="100%" />
+									</div>
+									<div class="swiper-con1">
+										<div class="swiper3-txt1">
+											{{$i.productName}}
+										</div>
+										<div class="swiper3-txt2">
+											{{$i.productUnit}}
+										</div>
+										<div class="txt-line">
+											产地：{{$i.productAddr}}
+										</div>
+									</div>
+								</a>
+							</div>
+							</volist>
+						</div>
+					</div>
+					<div class="do-banner">
+						<a class="arrow-right arrow-right3" href="#"></a>
+						<a class="arrow-left arrow-left3" href="#"></a>
+					</div>
+				</div>
+			</div>
+			{{$detail.articleContent}}
+		</div>
+
+<include file="Public/index/foot.html" />

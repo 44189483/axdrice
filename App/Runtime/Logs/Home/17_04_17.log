@@ -1,0 +1,62 @@
+[ 2017-04-17T09:12:03+08:00 ] ::1 /axd/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005327s ]
+SQL: SHOW COLUMNS FROM `axdrice_slide` [ RunTime:0.0057s ]
+SQL: SELECT `slideImg`,`slideLink` FROM `axdrice_slide` ORDER BY ord DESC,slideId DESC  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0035s ]
+SQL: SELECT `articleImg`,`articleContent` FROM `axdrice_article` WHERE ( articletype=0 ) LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT `articleId`,`articleTitle`,`addDate` FROM `axdrice_article` WHERE ( articletype=1 AND indexShow=1 ) ORDER BY ord DESC,articleId DESC LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000430s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001363s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 9 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 128 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019039s ]
+
+[ 2017-04-17T09:12:20+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SHOW COLUMNS FROM `axdrice_slide` [ RunTime:0.0567s ]
+SQL: SELECT `slideImg`,`slideLink` FROM `axdrice_slide` ORDER BY ord DESC,slideId DESC  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `axdrice_article` [ RunTime:0.0061s ]
+SQL: SELECT `articleImg`,`articleContent` FROM `axdrice_article` WHERE ( articletype=0 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `articleId`,`articleTitle`,`addDate` FROM `axdrice_article` WHERE ( articletype=1 AND indexShow=1 ) ORDER BY ord DESC,articleId DESC LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001326s ]
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 9 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 128 行.
+NOTIC: [8] Undefined variable: site E:\xampp\htdocs\axd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001678s ]
+

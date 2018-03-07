@@ -1,0 +1,84 @@
+[ 2017-04-11T09:09:24+08:00 ] ::1 /axd/ico.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000273s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002084s ]
+ERR: 无法加载模块:Ico
+
+[ 2017-04-11T09:10:34+08:00 ] ::1 /axd/static/admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000676s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002886s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-11T09:10:34+08:00 ] ::1 /axd/static/admin/js/jquery.main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002751s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-11T09:10:34+08:00 ] ::1 /axd/static/admin/js/jQuery.plus.extend.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000282s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003356s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-11T09:10:34+08:00 ] ::1 /axd/static/admin/js/jquery-1.7.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000324s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003031s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-11T09:10:34+08:00 ] ::1 /axd/source/admin/main.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000312s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002540s ]
+ERR: 无法加载模块:Source
+
+[ 2017-04-11T09:10:34+08:00 ] ::1 /axd/source/admin/leftnav.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000210s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002331s ]
+ERR: 无法加载模块:Source
+
+[ 2017-04-11T09:10:34+08:00 ] ::1 /axd/source/admin/header.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000320s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003135s ]
+ERR: 无法加载模块:Source
+
+[ 2017-04-11T09:11:10+08:00 ] ::1 /axd/source/admin/header.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000389s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002508s ]
+ERR: 无法加载模块:Source
+
+[ 2017-04-11T09:11:10+08:00 ] ::1 /axd/source/admin/main.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000396s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002921s ]
+ERR: 无法加载模块:Source
+
+[ 2017-04-11T09:11:10+08:00 ] ::1 /axd/source/admin/leftnav.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000307s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003064s ]
+ERR: 无法加载模块:Source
+
+[ 2017-04-11T10:44:06+08:00 ] ::1 /axd/__URL__/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+ERR: 无法加载模块:__URL__
+
+[ 2017-04-11T10:44:24+08:00 ] ::1 /axd/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001527s ]
+ERR: 无法加载模块:Login
+
+[ 2017-04-11T10:47:03+08:00 ] ::1 /axd/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001624s ]
+ERR: 无法加载模块:Login
+
