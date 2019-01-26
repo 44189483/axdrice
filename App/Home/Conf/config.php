@@ -5,6 +5,6 @@ return array(
     'URL_HTML_SUFFIX' => '',  // URL伪静态后缀设置
     'URL_ROUTER_ON'   => false, //开启路由
     'URL_ROUTE_RULES' => array( //定义路由规则
-        ':mod'   => 'Index/:1',
+        //':mod'   => 'Index/:1',
     )
 );

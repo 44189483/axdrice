@@ -11,43 +11,43 @@
 		<link rel="icon" href="ico.ico" type="image/x-icon" />
 		<link rel="shortcut icon" type="image/ico" href="ico.ico"/>
 		<link rel="bookmark" href="ico.ico"/>
-		<link rel="stylesheet" href="/axd-tp/Public/index/css/style.css" />
-		<script src="/axd-tp/Public/index/js/scale.js"></script>
+		<link rel="stylesheet" href="/Public/index/css/style.css" />
+		<script src="/Public/index/js/scale.js"></script>
 	</head>
 
 	<body>
 		<div class="head">
 			<div class="head-nav">
-				<a href="/axd-tp/Home/Index" class="head-logo"><img src="/axd-tp/Public/index/images/head-logo.png" alt="" /></a>
+				<a href="/Home/Index" class="head-logo"><img src="/Public/index/images/head-logo.png" alt="" /></a>
 				<ul class="head-navcnt">
 					<li class="<?php if((ACTION_NAME) == "index"): ?>active<?php endif; ?>">
-						<a href="/axd-tp/Home/Index">首页</a>
+						<a href="/Home/Index">首页</a>
 					</li>
 					<li class="<?php if((ACTION_NAME) == "rice"): ?>active<?php endif; ?>">
-						<a href="/axd-tp/Home/Index/rice">酵素大米</a>
+						<a href="/Home/Index/rice">酵素大米</a>
 					</li>
 					<li class="<?php if((ACTION_NAME) == "fertilizer"): ?>active<?php endif; ?>">
-						<a href="/axd-tp/Home/Index/fertilizer">酵素与生物肥</a>
+						<a href="/Home/Index/fertilizer">酵素与生物肥</a>
 					</li>
 					<li class="<?php if((ACTION_NAME) == "about"): ?>active<?php endif; ?>">
-						<a href="/axd-tp/Home/Index/about">关于我们</a>
+						<a href="/Home/Index/about">关于我们</a>
 					</li>
 					<li class="<?php if((ACTION_NAME) == "news|newsdetail"): ?>active<?php endif; ?>">
-						<a href="/axd-tp/Home/Index/news">新闻资讯</a>
+						<a href="/Home/Index/news">新闻资讯</a>
 					</li>
 				</ul>
 			</div>
 		</div>
 		<!--头部导航结束-->
 		<div class="head-bottomlogo">
-			<img src="/axd-tp/Public/index/images/head-bottomlogo.png" alt="" />
+			<img src="/Public/index/images/head-bottomlogo.png" alt="" />
 		</div>
 		<!-- 轮播广告开始 -->
 		<div id="banner_tabs" class="flexslider">
 			<ul class="slides">
 				<?php if(is_array($banner)): $i = 0; $__LIST__ = $banner;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
 					<a title="" target="_blank" href="<?php echo ($vo["slideLink"]); ?>">
-						<img width="1920" height="636" alt="" style="background: url(/axd-tp/<?php echo ($vo["slideImg"]); ?>) no-repeat center;" src="/axd-tp/Public/index/images/alpha.png">
+						<img width="1920" height="636" alt="" style="background: url(/<?php echo ($vo["slideImg"]); ?>) no-repeat center;" src="/Public/index/images/alpha.png">
 					</a>
 				</li><?php endforeach; endif; else: echo "" ;endif; ?>
 			</ul>
@@ -74,26 +74,26 @@
 			</div>
 			<div class="in-box01-cnt">
 				<div class="in-pr01">
-					<a href="/axd-tp/Home/Index/rice/id/2">
-						<img src="/axd-tp/Public/index/images/in-pr01.jpg" alt="" />
+					<a href="/Home/Index/rice/id/2">
+						<img src="/Public/index/images/in-pr01.jpg" alt="" />
 						<span class="more sprite"></span>
 					</a>
 				</div>
 				<div class="in-pr02">
-					<a href="/axd-tp/Home/Index/rice/id/5">
-						<img src="/axd-tp/Public/index/images/in-pr02.jpg" alt="" />
+					<a href="/Home/Index/rice/id/5">
+						<img src="/Public/index/images/in-pr02.jpg" alt="" />
 						<span class="more sprite"></span>
 					</a>
 				</div>
 				<div class="in-pr03">
-					<a href="/axd-tp/Home/Index/rice/id/3">
-						<img src="/axd-tp/Public/index/images/in-pr03.jpg" alt="" />
+					<a href="/Home/Index/rice/id/3">
+						<img src="/Public/index/images/in-pr03.jpg" alt="" />
 						<span class="more sprite"></span>
 					</a>
 				</div>
 				<div class="in-pr04">
-					<a href="/axd-tp/Home/Index/rice/id/4">
-						<img src="/axd-tp/Public/index/images/in-pr04.jpg" alt="" />
+					<a href="/Home/Index/rice/id/4">
+						<img src="/Public/index/images/in-pr04.jpg" alt="" />
 						<span class="more sprite"></span>
 					</a>
 				</div>
@@ -107,9 +107,9 @@
 						<h2><a href="">复合酶种植</a></h2>
 						<p><?php echo ($fhmPro["articleContent"]); ?>
 						</p>
-						<a href="/axd-tp/Home/Index/fertilizer" class="more">了解更多</a>
+						<a href="/Home/Index/fertilizer" class="more">了解更多</a>
 					</div>
-					<div class="in-box02-cntright"><img src="/axd-tp/<?php echo ($fhmPro["articleImg"]); ?>" alt="" /></div>
+					<div class="in-box02-cntright"><img src="/<?php echo ($fhmPro["articleImg"]); ?>" alt="" /></div>
 				</div>
 			</div>
 		</div>
@@ -117,10 +117,10 @@
 			<div class="in-title">公司新闻</div>
 			<ul class="in-box03-cnt">
 				<?php if(is_array($news)): $key = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$i): $mod = ($key % 2 );++$key;?><li <?php if($key % 2 != 0){ ?>class="list"<?php } ?>>
-					<a href="/axd-tp/Home/Index/newsdetail/id/<?php echo ($i["articleId"]); ?>"><?php echo ($i["articleTitle"]); ?> <span><?php echo ($i["addDate"]); ?></span></a>
+					<a href="/Home/Index/newsdetail/id/<?php echo ($i["articleId"]); ?>"><?php echo ($i["articleTitle"]); ?> <span><?php echo ($i["addDate"]); ?></span></a>
 				</li><?php endforeach; endif; else: echo "" ;endif; ?>
 			</ul>
-			<a href="/axd-tp/Home/Index/news" class="more">查看更多</a>
+			<a href="/Home/Index/news" class="more">查看更多</a>
 		</div>
 
 		<div class="foot">
@@ -129,29 +129,29 @@
 			<p>联系电话：<?php echo ($site["tel"]); ?></p>
 			<ul class="foot-nav">
 				<li <?php if((ACTION_NAME) == "index"): ?>class="active"<?php endif; ?>>
-					<a href="/axd-tp/Home/Index">首页</a>
+					<a href="/Home/Index">首页</a>
 				</li>
 				<li <?php if((ACTION_NAME) == "rice"): ?>class="active"<?php endif; ?>>
-					<a href="/axd-tp/Home/Index/rice">酵素大米</a>
+					<a href="/Home/Index/rice">酵素大米</a>
 				</li>
 				<li <?php if((ACTION_NAME) == "fertilizer"): ?>class="active"<?php endif; ?>>
-					<a href="/axd-tp/Home/Index/fertilizer">酵素与生物肥</a>
+					<a href="/Home/Index/fertilizer">酵素与生物肥</a>
 				</li>
 				<li <?php if((ACTION_NAME) == "about"): ?>class="active"<?php endif; ?>>
-					<a href="/axd-tp/Home/Index/about">关于我们 </a>
+					<a href="/Home/Index/about">关于我们 </a>
 				</li>
 				<li <?php if((ACTION_NAME) == "news|newsdetail"): ?>class="active"<?php endif; ?>">
-					<a href="/axd-tp/Home/Index/news">新闻资讯</a>
+					<a href="/Home/Index/news">新闻资讯</a>
 				</li>
 			</ul>
 		</div>
 
-		<div style='background: url(/axd-tp/Public/index/images/ftbanner.jpg) no-repeat top center;' class="foot-banner"></div>	
+		<div style='background: url(/Public/index/images/ftbanner.jpg) no-repeat top center;' class="foot-banner"></div>	
 
 		<!--网站脚本加载模块开始-->
-		<script src="/axd-tp/Public/index/js/jquery-1.7.1.min.js"></script>
-		<script src="/axd-tp/Public/index/js/jquery.main.js"></script>
-		<script src="/axd-tp/Public/index/js/slider.js"></script>
+		<script src="/Public/index/js/jquery-1.7.1.min.js"></script>
+		<script src="/Public/index/js/jquery.main.js"></script>
+		<script src="/Public/index/js/slider.js"></script>
 		<!--网站脚本加载模块结束-->
 		<script type="text/javascript">
 			$(function() {

@@ -7,8 +7,12 @@ class IndexController extends Controller {
 
 		if(I('post.act') == 'submit'){
 	
-			if(I('post.provenum') != I('session.authImg')){
-    			$this->error('对不起，请输入正确的验证码！');
+			//if(I('post.provenum') != I('session.authImg')){
+    			//$this->error('对不起，请输入正确的验证码！');
+			//}
+
+			if(!$this->check_verify(I('post.provenum'))){
+				$this->error('对不起，请输入正确的验证码！');
 			}	
 
 			$username = I('post.username');
@@ -26,7 +30,6 @@ class IndexController extends Controller {
 				redirect(U('Index'), 1, '请登陆,页面跳转中...');
 			}
 		}
-
 		$this->display();
 	}
 
@@ -48,6 +51,17 @@ class IndexController extends Controller {
 
     public function provenum(){
 
+    	$config =    array(
+		    'fontSize' => 20,    // 验证码字体大小
+		    'imageW'   => 180,
+			'imageH'   => 35
+		);
+
+    	$Verify = new \Think\Verify($config);
+		$Verify->entry();
+
+    	/*
+
     	$rand = "";
 
 		for($i = 0;$i < 4;$i++){
@@ -65,10 +79,12 @@ class IndexController extends Controller {
 
 		$te2 = imagecolorallocate($im,rand(0,255),rand(0,255),rand(0,255));
 
+		//画线
 		for($i = 0; $i < 3; $i++){
 			imageline($im,rand(0,100),0,100,30,$te2);
 		}
 
+		//杂点
 		for($i = 0;$i < 200;$i++){
 		    imagesetpixel($im,rand(0,100),rand(0,30),$te2);
 		}
@@ -81,7 +97,15 @@ class IndexController extends Controller {
 
 		imagedestroy($im);
 
+		*/
+
     }
+
+    // 检测输入的验证码是否正确，$code为用户输入的验证码字符串
+	public function check_verify($code){
+	    $verify = new \Think\Verify();
+	    return $verify->check($code);
+	}
 
     public function logout(){
     	//退出 清除session

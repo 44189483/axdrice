@@ -3,10 +3,10 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title>安心德管理系统</title>
-	<link rel="stylesheet" href="/axd-tp/Public/admin/css/style.css" />
-	<script src="/axd-tp/Public/admin/js/jquery-1.7.1.min.js"></script>
-	<script src="/axd-tp/Public/admin/js/jQuery.plus.extend.js"></script>
-	<script src="/axd-tp/Public/admin/js/jquery.main.js"></script>
+	<link rel="stylesheet" href="/Public/admin/css/style.css" />
+	<script src="/Public/admin/js/jquery-1.7.1.min.js"></script>
+	<script src="/Public/admin/js/jQuery.plus.extend.js"></script>
+	<script src="/Public/admin/js/jquery.main.js"></script>
 	<script type="text/javascript">
 	<!--
 		String.prototype.Trim = function(){
@@ -65,7 +65,7 @@
 			<p><input class="text userName" type="text" name="username" value="" /></p>
 			<p><input class="text passWord" type="password" name="userpwd" value="" /></p>
 			<p><input class="testCode" type="text" name="provenum" id="provenum" value="" />&nbsp;
-			<img src="/axd-tp/index.php/Admin/Index/provenum" name="imgCaptcha" id="imgCaptcha" onClick="RefreshImage('imgCaptcha');" class="code"/>
+			<img src="/index.php/Admin/Index/provenum" name="imgCaptcha" id="imgCaptcha" onClick="RefreshImage('imgCaptcha');" class="code"/>
 			</p>
 			<p>
 				<input type="hidden" name="act" value="submit" />

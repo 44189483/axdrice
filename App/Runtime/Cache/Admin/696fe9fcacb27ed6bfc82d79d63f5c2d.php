@@ -3,10 +3,10 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title></title>
-	<link rel="stylesheet" href="/axd-tp/Public/admin/css/style.css" />
-	<script src="/axd-tp/Public/admin/js/jquery-1.7.1.min.js"></script>
-	<script src="/axd-tp/Public/admin/js/jQuery.plus.extend.js"></script>
-	<script src="/axd-tp/Public/admin/js/jquery.main.js"></script>
+	<link rel="stylesheet" href="/Public/admin/css/style.css" />
+	<script src="/Public/admin/js/jquery-1.7.1.min.js"></script>
+	<script src="/Public/admin/js/jQuery.plus.extend.js"></script>
+	<script src="/Public/admin/js/jquery.main.js"></script>
 </head>
 <body class="bodyGrey">
 	<div class="mainTitle">安心德官网管理系统功能介绍</div>
